@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">MissionPlanningApp</string>
+    <string name="title_activity_flight_path">Map</string>
+
+    <string name="begin_mission_plan">Begin Mission Plan</string>
+    <string name="load_mission_package">Load Mission Package</string>
+
+    <string name="setFlightPath">Create New Flight Path</string>
+    <string name="downlaodFlightPath">Download Flight Path</string>
+    <string name="verifyFlightPath"> Verify/Edit Flight Path</string>
+    <string name="uploadMission">Upload Mission</string>
+
+    <string name="loadFlightPath">Load Flight Path</string>
+
+    <string name="altitude_message">Insert Flight Altitude in meters</string>
+    <string name="no_altitude_message">No Altitude Was Entered</string>
+    <string name="drag_message">Would you like to delete or replace this waypoint?</string>
+    <string name="close_message">You are too close to the UAV</string>
+    <string name="no_takeoff_message">Please move more than 5 meters away from the UAV to takeoff.</string>
+
+    <string name="gps_waypoint">GPS Waypoint</string>
+    <string name="map_waypoint">Waypoint Map Selection</string>
+    <string name="mark_feature">Mark Feature</string>
+    <string name="acceptMission">Accept Mission</string>
+    <string name="return_to_start">Return to Start</string>
+    <string name="gps_accuracy">GPS Accuracy:</string>
+
+    <string name="add_waypoint">Add Waypoint</string>
+    <string name="mission_end">Mission End</string>
+    <string name="mission_start">Mission Start</string>
+    <string name="color_code">Color Code: \u0020</string>
+    <string name="delete_message">Would you like to delete this waypoint?</string>
+    <string name="delete_waypoint">Delete Waypoint</string>
+
+    <string name="Arm">Arm</string>
+    <string name="Connect">Connect</string>
+    <string name="Connected">Connected</string>
+    <string name="Disarm">Disarm</string>
+    <string name="Disconnect">Disconnect</string>
+    <string name="Land">Land</string>
+    <string name="noConnection">No Connection</string>
+    <string name="pre_flight">Pre Flight Checks</string>
+    <string name="proceedToMission">Proceed to Mission</string>
+    <string name="sendMission">Send Mission to UAV</string>
+    <string name="TakeOff">Take Off</string>
+    <string name="uavConnection">UAV Connection</string>
+
+    <string name="checkbox">Map Auto Pan</string>
+    <string name="begin_mission">Begin Mission</string>
+    <string name="stop_mission">Stop Mission</string>
+    <string name="altitude">Altitude (m)</string>
+    <string name="battery_voltage">Battery Voltage (V)</string>
+    <string name="gps_hdop">GPS HDOP</string>
+    <string name="preArm_message">Please Press the PreArm Safety Button on the UAV</string>
+
+    <string name="gps_info">GPS Information</string>
+    <string name="gps_status">GPS Fix Status</string>
+    <string name="sat_count">Satellite Count</string>
+    <string name="default_fix">No Fix</string>
+    <string name="default_sats">0 Satellites</string>
+    <string name="Satellites">Satellites</string>
+    <string name="battery_info">Battery Information</string>
+    <string name="battery_voltage_cell">Battery Voltage per Cell (V)</string>
+    <string name="battery_level">Estimated Battery Level (%)</string>
+    <string name="takeoff_check">UAV Takeoff Checks</string>
+    <string name="takeoff_check_1">Is the UAV located at the appropriate takeoff location?</string>
+    <string name="takeoff_check_2">Is the takeoff area clear of obstacles and people?</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="imu_cal">IMU Calibration</string>
+    <string name="imu_but">Begin IMU Calibration</string>
+    <string name="imu_start">Press the button to begin the IMU Calibration</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="mag_cal">Compass Calibration</string>
+    <string name="mag_but">Begin Compass Calibration</string>
+    <string name="imu_calibration_start_error">Error starting the IMU Calibration</string>
+
+    <string name="setup_imu_start">Press Calibrate to start IMU calibration. Ensure vehicle is placed on a FLAT surface before beginning the calibration process.</string>
+    <string name="setup_imu_normal">Place the vehicle on its NORMAL position ensuring very minimal movement and press Next.</string>
+    <string name="setup_imu_left">Place the vehicle on its LEFT ensuring very minimal movement and press Next.</string>
+    <string name="setup_imu_right">Place the vehicle on its RIGHT ensuring very minimal movement and press Next.</string>
+    <string name="setup_imu_nosedown">Place the vehicle NOSE DOWN ensuring very minimal movement and press Next.</string>
+    <string name="setup_imu_noseup">Place the vehicle NOSE UP ensuring very minimal movement and press Next.</string>
+    <string name="setup_imu_back">Place the vehicle on its BACK ensuring very minimal movement and press Next.</string>
+    <string name="setup_imu_completed">Accelerometer calibration completed.</string>
+
+    <string name="try_again">Try Again</string>
+    <string name="label_compass_calibration_failed">Compass Calibration unsuccessful.\nBe sure to stay away from metal objects and reinforced concrete.</string>
+    <string name="label_ready_to_fly">Continue to Flight</string>
+    <string name="label_success">Compass Calibration Successful</string>
+    <string name="instruction_compass_begin_calibration">Face each axis of the UAV North and rotate the UAV around each axis. Calibrate away from buildings, concrete, and metal structures.</string>
+
+    <string name="load_building">Load Building File</string>
+    <string name="edit_building">Verify/Edit Building</string>
+    <string name="simulate_flight">Simulate Flight</string>
+
+    <string name="acceptBuilding">Accept Outline</string>
+    <string name="resetBuilding">Reset Outline</string>
+
+    <string-array name="drone_connection_types">
+        <item>USB</item>
+        <item>TCP/IP</item>
+    </string-array>
+
+</resources>
